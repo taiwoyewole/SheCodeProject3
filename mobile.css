@@ -141,7 +141,7 @@ h2 {
     margin-bottom: 15px;
     background-color: white;
 }
-.two {
+.left-div-sec:hover{
     color: white;
     background-color: #3f3db2;
     box-shadow: 5px 15px 20px 3px hsl(0, 0%, 72%)
@@ -155,46 +155,29 @@ h2 {
 }
 .sec-features img {
     margin-top: 20px;
-}
-footer {
-    text-align: center;
-    background-color: whitesmoke;
-    padding-bottom: 15px;
-}
-footer h2 {
-    padding-top: 45px;
-    margin-top: 0px;
-}
-footer p {
-    padding: 0 10px;
-}
-.footer-div {
-    margin-top: 35px;
-}
-.footer-left {
     width: 80%;
-    margin: 0 auto;
-    margin-top: 30px;
 }
-.footer-right {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 10px;
-    margin: 30px 10px;
+.integration {
+    padding: 50px 15px;
 }
-.footer-right p {
-    margin: 0;
-    padding-top: 15px;
+.second{
+    background-color: #eaeeff;
+    text-align: center;
+    width: 100%;
 }
-.inner-div {
-    padding: 7px;
+.leftpic img{
+    height: auto;
+    width: auto;
+    display: inline-block;
+    width: 75%;
+}
+.icons{
+    box-shadow: 0 4px 8px 0 rgba(12,0,46,0.1);
+    padding: 20px;
+    margin: 30px;
     background-color: white;
     border-radius: 10px;
 }
-.icon {
-    font-size: 15px;
-    color: white;
-    background-color: #3f3db2;
-    padding: 10px;
-    margin-top: 10px;
+.icons img{
+    align-items: center;
 }

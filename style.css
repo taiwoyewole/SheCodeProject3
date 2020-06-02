@@ -72,20 +72,17 @@ input {
 .left-div-sec h4 {
     margin-bottom: 5px;
 }
-footer p {
-    width: 50%;
-    margin: auto;
+.integration {
+    padding: 50px 0;
 }
-.footer-right p {
-    margin: auto;
+.everything{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 0px;
+    margin: 30px 0;
 }
-.footer-div {
-    margin: 35px 15px;
-    display: flex;
-    justify-content: space-around;
-}
-.inner-div {
-    padding: 27px;
+.icons {
+    margin: 10px;
 }
 }
 @media only screen and (min-device-width: 1024px) {
@@ -101,12 +98,15 @@ footer p {
     .left-div {
         margin-top: 6%;
     }
-    .footer-left {
-        width: 40%;
+    .inner-div {
+        display: flex;
+        justify-content: space-evenly;
     }
-    .footer-right {
-        width: 80%;
-        grid-gap: 30px;
+    .everything {
+        grid-gap: 10px;
+    }
+    .icons {
+        padding: 20px 60px;
     }
 }
 @media only screen and (min-device-width: 1440px) {
@@ -177,21 +177,14 @@ footer p {
         margin: 0 auto 70px;
         font-size: 16px;
     }
+    .left-div-sec {
+        margin-bottom: 50px;
+    }
     .left-div-sec p {
-        width: 68%;
-        margin-bottom: 20px;
+        width: 60%;
     }
-    footer h2 {
-        padding-top: 85px;
-    }
-    footer p {
-        width: 37%;
-    }
-    .footer-right {
-        width: 100%;
-    }
-    .inner-div {
-        padding-top: 31px;
+    .icons {
+        padding: 30px 90px;
     }
 }
 @media only screen and (min-device-width: 2560px) {
@@ -277,31 +270,25 @@ h2 {
 }
 .left-div-sec {
     border-radius: 15px;
-    margin-bottom: 35px;
 }
-.left-div-sec {
-    border: 1px;
-    border-radius: 15px;
+.left-div-sec p {
+    width: 60%;
+    margin-bottom: 20px;
 }
 .sec-features img {
     width: 45%;
 }
-.footer-div {
-    margin: 60px 15px;
+.leftpic {
+    width: 35%;
 }
-.footer-right {
-    margin: 30px 50px;
+.leftpic img {
+    width: 75%;
+}
+.everything {
     grid-gap: 40px;
+    margin: 30px;
 }
-.icon {
-    font-size: 30px;
-    padding: 20px;
-    margin-top: 30px;
-}
-.footer-right p {
-    padding-top: 30px;
-}
-.inner-div {
-    padding: 50px;
+.icons {
+    padding: 50px 150px;
 }
 }
