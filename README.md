@@ -1,5 +1,5 @@
-# SheCodeAfrca - Project 3
-Frontend Project given by @sheCodeAfrica
+# Sassland-Landing-Page - Project 3
+A frontend project given by @sheCodeAfrica
 
 Build a Landing Page using HTML & CSS
 
