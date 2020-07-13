@@ -1,5 +1,5 @@
 # SheCodeAfrca - Project 3
-Frontend task
+Frontend Project given by @sheCodeAfrica
 
 Build a Landing Page using HTML & CSS
 
